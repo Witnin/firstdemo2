@@ -56,7 +56,7 @@ public class CallableDemo {
 
         }
 
-        new Thread(runnable,"线程1").start();
+        new Thread(runnable,"线程1212wq").start();
     }
 
 
