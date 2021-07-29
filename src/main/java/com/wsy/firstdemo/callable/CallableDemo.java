@@ -49,7 +49,7 @@ public class CallableDemo {
 
         FutureTask<Long> futureTask = new FutureTask<>(callable);
 
-        new Thread(futureTask,"线程2").start();
+        new Thread(futureTask,"线程23232").start();
         for (int i = 0; i < 10; i++) {
             Long result1 = futureTask.get();
             System.out.println(result1);
